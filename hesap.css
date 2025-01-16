@@ -1,0 +1,140 @@
+body {
+    background: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-fluid {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.row {
+    border-radius: 10px;
+    margin: 1rem 0 !important;
+    transition: transform 0.2s;
+    background: white !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.row:hover {
+    transform: translateY(-2px);
+}
+
+label {
+    color: #34495e;
+    font-weight: 500;
+    min-width: 150px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 1rem;
+}
+
+.kutucuklar {
+    padding: 8px 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    margin: 0 5px;
+    width: 100px !important;
+    text-align: center;
+    transition: border-color 0.3s;
+}
+
+.kutucuklar:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52,152,219,0.3);
+}
+
+.cıktı {
+    background-color: #f8f9fa !important;
+    padding: 1rem;
+    border-radius: 8px;
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cıktı p {
+    margin: 0;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(52,152,219,0.3);
+}
+
+.GANO {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.GANO h4 {
+    margin: 0;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    label {
+        text-align: left;
+        margin-bottom: 0.5rem;
+    }
+    
+    .container-fluid {
+        padding: 1rem;
+    }
+    
+    .row {
+        padding: 1rem !important;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2.5rem;
+    transform: translateX(-25%);
+}
+.icons{
+    color:dimgray;
+    transition: 0.5s ease-in-out;
+}
+
+.icons:hover {
+    transform: scale(1.2);
+    color: black;
+    
+}
